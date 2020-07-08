@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Merriweather Sans';
+    src: url('MerriweatherSans-ExtraBold.eot');
+    src: url('MerriweatherSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('MerriweatherSans-ExtraBold.woff2') format('woff2'),
+        url('MerriweatherSans-ExtraBold.woff') format('woff'),
+        url('MerriweatherSans-ExtraBold.svg#MerriweatherSans-ExtraBold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Merriweather Sans';
+    src: url('MerriweatherSans-Regular.eot');
+    src: url('MerriweatherSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('MerriweatherSans-Regular.woff2') format('woff2'),
+        url('MerriweatherSans-Regular.woff') format('woff'),
+        url('MerriweatherSans-Regular.svg#MerriweatherSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Merriweather Sans';
+    src: url('MerriweatherSans-Bold.eot');
+    src: url('MerriweatherSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('MerriweatherSans-Bold.woff2') format('woff2'),
+        url('MerriweatherSans-Bold.woff') format('woff'),
+        url('MerriweatherSans-Bold.svg#MerriweatherSans-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

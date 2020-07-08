@@ -1,0 +1,91 @@
+// https://medium.com/@aditya_tyagi/import-fonts-in-an-angular-app-the-easy-right-way-ae9e99cab551
+// for how to arrange file tree for fonts in Angular 
+
+// @font-face {
+//     font-family: 'Alba';
+//     src: url('Alba.eot');
+//     src: url('Alba.eot?#iefix') format('embedded-opentype'),
+//         url('/assets/fonts/alba/Regular/Alba.woff2') format('woff2'),
+//         url('/assets/fonts/alba/Regular/Alba.woff') format('woff'),
+//         url('/assets/fonts/alba/Regular/Alba.svg#Alba') format('svg');
+//     font-weight: normal;
+//     font-style: normal;
+//     font-display: swap;
+// }
+
+// @font-face {
+//     font-family: 'Alba Matter';
+//     src: url('AlbaMatter.eot');
+//     src: url('AlbaMatter.eot?#iefix') format('embedded-opentype'),
+//         url('AlbaMatter.woff2') format('woff2'),
+//         url('AlbaMatter.woff') format('woff'),
+//         url('AlbaMatter.svg#AlbaMatter') format('svg');
+//     font-weight: normal;
+//     font-style: normal;
+//     font-display: swap;
+// }
+
+// @font-face {
+//     font-family: 'Alba Super';
+//     src: url('AlbaSuper.eot');
+//     src: url('AlbaSuper.eot?#iefix') format('embedded-opentype'),
+//         url('AlbaSuper.woff2') format('woff2'),
+//         url('AlbaSuper.woff') format('woff'),
+//         url('AlbaSuper.svg#AlbaSuper') format('svg');
+//     font-weight: normal;
+//     font-style: normal;
+//     font-display: swap;
+// }
+
+// Merriweather Font
+
+@font-face {
+    font-family: 'Merriweather Sans';
+    src: url('/assets/fonts/Merriweather Sans/MerriweatherSans-ExtraBold.eot');
+    src: url('/assets/fonts/Merriweather Sans/Extra Bold/MerriweatherSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/Merriweather Sans/MerriweatherSans-ExtraBold.woff2') format('woff2'),
+        url('/assets/fonts/Merriweather Sans/MerriweatherSans-ExtraBold.woff') format('woff'),
+        url('/assets/fonts/Merriweather Sans/MerriweatherSans-ExtraBold.svg#MerriweatherSans-ExtraBold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Merriweather Sans';
+    src: url('/assets/fonts/Merriweather Sans/Regular/MerriweatherSans-Regular.eot');
+    src: url('/assets/fonts/Merriweather Sans/Regular/MerriweatherSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/Merriweather Sans/Regular/MerriweatherSans-Regular.woff2') format('woff2'),
+        url('/assets/fonts/Merriweather Sans/Regular/MerriweatherSans-Regular.woff') format('woff'),
+        url('/assets/fonts/Merriweather Sans/Regular/MerriweatherSans-Regular.svg#MerriweatherSans-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Merriweather Sans';
+    src: url('/assets/fonts/Merriweather Sans/Bold/MerriweatherSans-Bold.eot');
+    src: url('/assets/fonts/Merriweather Sans/Bold/MerriweatherSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/Merriweather Sans/Bold/MerriweatherSans-Bold.woff2') format('woff2'),
+        url('/assets/fonts/Merriweather Sans/Bold/MerriweatherSans-Bold.woff') format('woff'),
+        url('/assets/fonts/Merriweather Sans/Bold/MerriweatherSans-Bold.svg#MerriweatherSans-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+// Cooper Black Font
+
+@font-face {
+    font-family: 'Cooper';
+    src: url('/assets/fonts/CooperBlack Regular/CooperBlack.eot');
+    src: url('/assets/fonts/CooperBlack Regular/CooperBlack.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/CooperBlack Regular/CooperBlack.woff2') format('woff2'),
+        url('/assets/fonts/CooperBlack Regular/CooperBlack.woff') format('woff'),
+        url('/assets/fonts/CooperBlack Regular/CooperBlack.svg#CooperBlack') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
