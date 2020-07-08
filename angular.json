@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "cvsite"
+    }
+  },
+  "defaultProject": "cvsite",
+  "cli": {
+    "analytics": "d5207011-36b4-41d4-8dea-e00ea69709c0"
+  }
 }
