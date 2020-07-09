@@ -58,3 +58,10 @@ h2,
 h3 {
     font-family: $header_font, sans-serif, "Courier New";
 }
+
+@media (max-width: 400px){
+    .container{
+        display: flex;
+    }
+}
+
