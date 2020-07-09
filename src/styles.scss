@@ -35,6 +35,17 @@ $primary-fs: 16px;
 $font-md: 18px;
 $font-lg: 20px;
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: $white;
     font-family: $primary_font;
